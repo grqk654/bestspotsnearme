@@ -1400,7 +1400,7 @@ const pageToUrl = (page) => page === 'home' ? '/' : '/' + page
 
 // ─── SHARED COMPONENTS ────────────────────────────────────────────────────────
 const s = {
-  wrap: { maxWidth: 780, margin: '0 auto', padding: '0 20px' },
+  wrap: { maxWidth: 1100, margin: '0 auto', padding: '0 32px' },
   nav: { display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '16px 0', borderBottom: `0.5px solid ${T.border}` },
   wordmark: { fontFamily: "'Lora', serif", fontSize: 20, fontWeight: 600, color: T.text, letterSpacing: -0.3, display: 'flex', alignItems: 'center', gap: 8, cursor: 'pointer', textDecoration: 'none' },
   wordmarkDot: { width: 8, height: 8, borderRadius: '50%', background: T.coral, flexShrink: 0 },
