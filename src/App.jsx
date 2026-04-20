@@ -158,7 +158,7 @@ function Nav({ navigate }) {
       </div>
       <div style={s.navLinks}>
         <button style={s.navLink} onClick={() => navigate('brooklyn/coffee')}>Browse</button>
-        <button style={s.navLink} onClick={() => navigate('events')}>Events</button>
+        
         <button style={s.navLink} onClick={() => navigate('guides')}>Guides</button>
         <button style={s.navLink} onClick={() => navigate('about')}>About</button>
       </div>
