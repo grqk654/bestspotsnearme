@@ -7,7 +7,7 @@ export default async function handler(req, res) {
     return
   }
 
-  let url = `https://www.eventbriteapi.com/v3/events/search/?location.address=Brooklyn%2C%20NY&location.within=10mi&sort_by=date&expand=venue%2Ccategory&page_size=24`
+  let url = `https://www.eventbriteapi.com/events/search/?location.address=Brooklyn%2C%20NY&location.within=10mi&sort_by=date&expand=venue%2Ccategory&page_size=24`
   if (category && category !== 'all') url += `&categories=${category}`
 
   try {
